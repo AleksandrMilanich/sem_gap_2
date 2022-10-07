@@ -1,0 +1,19 @@
+{
+  "task_1": {
+    "source_image": "images\\blackCube.jpg",
+    "result_image": "images\\task_1.png",
+    "threshold": 100
+  },
+  "task_2": {
+    "source_image": "images\\box.jpg",
+    "result_image": "images\\task_2.png",
+    "params": {
+      "canny": {
+        "sigma": 1,
+        "low_threshold": 0.3,
+        "high_threshold": 0.5
+      },
+      "binary_closing_footprint_width": 30
+    }
+  }
+}
